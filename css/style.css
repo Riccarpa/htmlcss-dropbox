@@ -106,6 +106,14 @@ li {
     font-family: 'Open Sans', sans-serif;
 }
 
+.blu {
+    color: blue;
+}
+
+.fontw400 {
+    font-weight: 400;
+}
+
 
 /* header */
 
@@ -206,6 +214,11 @@ section.plans h2 {
     font-size: 40px;
 }
 
+section .plan {
+    font-size: 14px;
+    font-weight: bolder;
+}
+
 .input span {
     font-weight: bolder;
     font-size: 14px;
@@ -213,7 +226,6 @@ section.plans h2 {
 }
 
 section.plans .col {
-    height: 400px;
     width: calc(100% / 3);
 }
 
@@ -221,4 +233,13 @@ section.plans .col {
     height: 40px;
     line-height: 40px;
     vertical-align: middle;
+}
+
+hr {
+    width: 20%;
+    color: gray;
+}
+
+.check {
+    color: blue;
 }
