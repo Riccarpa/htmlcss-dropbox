@@ -208,6 +208,10 @@ section.plans {
     margin: 0 auto;
 }
 
+section.plans .col {
+    width: calc(100% / 3);
+}
+
 section.plans h2 {
     margin-bottom: 40px;
     font-weight: bolder;
@@ -225,14 +229,18 @@ section .plan {
     margin-right: 10px;
 }
 
-section.plans .col {
-    width: calc(100% / 3);
-}
-
 .plan-header {
     height: 40px;
     line-height: 40px;
     vertical-align: middle;
+}
+
+.offer h3 {
+    font-size: 25px;
+}
+
+.offer h4 {
+    font-size: 18px;
 }
 
 hr {
