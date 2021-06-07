@@ -49,6 +49,13 @@ body {
     border: 1px solid gray;
 }
 
+.border-rlb {
+    border-right: 1px solid gray;
+    border-left: 1px solid gray;
+    border-bottom: 1px solid gray;
+    padding: 30px 20px 30px 20px;
+}
+
 .m20 {
     margin: 20px 0;
 }
@@ -85,6 +92,18 @@ li {
 
 .relative {
     position: relative;
+}
+
+.bolder {
+    font-weight: bolder;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.family {
+    font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -202,11 +221,4 @@ section.plans .col {
     height: 40px;
     line-height: 40px;
     vertical-align: middle;
-}
-
-.plan {
-    border-right: 1px solid gray;
-    border-left: 1px solid gray;
-    border-bottom: 1px solid gray;
-    padding: 20px;
 }
