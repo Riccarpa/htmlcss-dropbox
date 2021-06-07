@@ -1,0 +1,151 @@
+/* reset */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* utils */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col {
+    float: left;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.display-ib {
+    display: inline-block;
+}
+
+li {
+    list-style-type: none;
+}
+
+.wd-50 {
+    width: 50%;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.btn-blu {
+    background-color: #3B85FF;
+    color: white;
+}
+
+.btn a {
+    padding: 10px 15px;
+}
+
+.btn {
+    margin: 20px 0;
+}
+
+.btn:hover {
+    opacity: 0.7;
+}
+
+.relative {
+    position: relative;
+}
+
+
+/* header */
+
+
+/* top-bar */
+
+.top-bar {
+    height: 80px;
+}
+
+header li:hover {
+    text-decoration: underline;
+}
+
+header li {
+    display: inline-block;
+    line-height: 80px;
+    vertical-align: middle;
+    padding: 0 20px;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+[alt=logo] {
+    vertical-align: middle;
+    padding-bottom: 4px;
+}
+
+.top-bar .btn {
+    line-height: 80px;
+    vertical-align: middle;
+}
+
+.top-bar .btn:hover {
+    opacity: 0.7;
+}
+
+.top-bar a.btn-blu {
+    padding: 5px 10px;
+}
+
+
+/* spotlight */
+
+.spotlight {
+    background-color: #B4D0E7;
+    padding: 50px 0 0 0;
+}
+
+.spotlight .content {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.content h1 {
+    font-weight: 800;
+    font-size: 50px;
+    padding-bottom: 30px;
+}
+
+.content-left {
+    padding: 0 30px 50px 0;
+    width: 400px;
+    font-weight: 700;
+}
+
+.fas.fa-arrow-down {
+    font-size: 40px;
+    padding-top: 20px;
+}
+
+.content-right {
+    position: absolute;
+    top: 0;
+    bottom: -20%;
+    right: auto;
+}
+
+.content-right img {
+    width: 100%;
+    height: 100%;
+}
