@@ -29,6 +29,10 @@ body {
     display: inline-block;
 }
 
+.display-b {
+    display: block;
+}
+
 .wd-50 {
     width: 50%;
 }
@@ -37,8 +41,24 @@ body {
     text-align: right;
 }
 
+.text-center {
+    text-align: center;
+}
+
+.border {
+    border: 1px solid gray;
+}
+
 .m20 {
     margin: 20px 0;
+}
+
+.mb20 {
+    margin-bottom: 20px;
+}
+
+.mb40 {
+    margin-bottom: 40px;
 }
 
 a {
@@ -114,7 +134,7 @@ header li {
 .spotlight {
     background-color: #B4D0E7;
     padding: 50px 0;
-    margin-bottom: 60px;
+    margin-bottom: 150px;
 }
 
 .spotlight .content {
@@ -152,3 +172,41 @@ header li {
 
 
 /* main */
+
+
+/* section plans */
+
+section.plans {
+    width: 80%;
+    margin: 0 auto;
+}
+
+section.plans h2 {
+    margin-bottom: 40px;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.input span {
+    font-weight: bolder;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+section.plans .col {
+    height: 400px;
+    width: calc(100% / 3);
+}
+
+.plan-header {
+    height: 40px;
+    line-height: 40px;
+    vertical-align: middle;
+}
+
+.plan {
+    border-right: 1px solid gray;
+    border-left: 1px solid gray;
+    border-bottom: 1px solid gray;
+    padding: 20px;
+}
