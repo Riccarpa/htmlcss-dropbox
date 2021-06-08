@@ -421,23 +421,7 @@ section.clients .container.clearfix {
     margin: 0 auto;
 }
 
-section.clients .col.logo1 {
-    width: 50%;
-    height: 150px;
-}
-
-section.clients .col.logo2 {
-    ;
-    width: 50%;
-    height: 150px;
-}
-
-section.clients .col.logo3 {
-    width: 50%;
-    height: 150px;
-}
-
-section.clients .col.logo4 {
+section.clients .col.logo {
     width: 50%;
     height: 150px;
 }
