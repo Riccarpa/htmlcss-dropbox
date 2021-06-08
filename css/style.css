@@ -64,6 +64,10 @@ body {
     margin: 20px 0;
 }
 
+.m40 {
+    margin: 40px 0;
+}
+
 .mb20 {
     margin-bottom: 20px;
 }
@@ -99,7 +103,7 @@ li {
 }
 
 .bolder {
-    font-weight: bolder;
+    font-weight: 900;
 }
 
 .bold {
@@ -116,6 +120,12 @@ li {
 
 .fontw400 {
     font-weight: 400;
+}
+
+section h2 {
+    margin-bottom: 40px;
+    font-weight: bolder;
+    font-size: 40px;
 }
 
 
@@ -228,12 +238,6 @@ section .plans-container .col {
     padding: 0 50px 0 0;
 }
 
-section.plans h2 {
-    margin-bottom: 40px;
-    font-weight: bolder;
-    font-size: 40px;
-}
-
 .section.plans h4 {
     font-size: 18px;
 }
@@ -311,4 +315,28 @@ section.partner .col.text {
 section.partner .col.text a {
     padding: 5px 10px;
     border: 1px solid gray;
+}
+
+
+/* section business */
+
+section.business {
+    width: 80%;
+    margin: 100px auto;
+}
+
+section.business .container .col {
+    width: calc(100% / 3);
+}
+
+section.business .container .col img {
+    width: 100%;
+}
+
+section.business .container .col-data {
+    padding: 0 20px;
+}
+
+section.business .container .col-text p {
+    font-size: 14px;
 }
