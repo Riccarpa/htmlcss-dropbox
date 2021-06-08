@@ -37,6 +37,10 @@ body {
     width: 50%;
 }
 
+.wd-100 {
+    width: calc(100% - 50px);
+}
+
 .text-right {
     text-align: right;
 }
@@ -216,7 +220,7 @@ section.plans {
     margin: 0 auto;
 }
 
-section.plans .col {
+section .plans-container .col {
     width: calc(100% / 3);
 }
 
@@ -228,6 +232,14 @@ section.plans h2 {
     margin-bottom: 40px;
     font-weight: bolder;
     font-size: 40px;
+}
+
+.section.plans h4 {
+    font-size: 18px;
+}
+
+section.plans h3 {
+    font-size: 25px;
 }
 
 section .plan {
@@ -252,27 +264,28 @@ section .plan {
     margin-left: 15px;
 }
 
-.offer h3 {
-    font-size: 25px;
-}
-
 hr {
     width: 20%;
     color: gray;
-}
-
-.offer h4 {
-    font-size: 18px;
-}
-
-span.check {
-    display: inline-block;
-    font-size: 20px;
-    text-indent: -1.2em;
-    color: blue;
 }
 
 .offer li {
     margin-bottom: 20px;
     margin-left: 25px;
 }
+
+.offer span.check {
+    display: inline-block;
+    font-size: 20px;
+    text-indent: -1.2em;
+    color: blue;
+}
+
+.enterprise .btn {
+    position: absolute;
+    right: 5%;
+    top: 25%;
+}
+
+
+/* section2 */
