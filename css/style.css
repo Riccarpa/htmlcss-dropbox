@@ -7,7 +7,10 @@
 }
 
 
-/* utils */
+/************** utils**************** */
+
+
+/* layout */
 
 body {
     font-family: 'Open Sans', sans-serif;
@@ -33,6 +36,9 @@ body {
     display: block;
 }
 
+
+/* dimensions */
+
 .wd-50 {
     width: 50%;
 }
@@ -41,6 +47,17 @@ body {
     width: calc(100% - 50px);
 }
 
+.wd-30 {
+    width: 30%;
+}
+
+.wd-40 {
+    width: 40%;
+}
+
+
+/* text */
+
 .text-right {
     text-align: right;
 }
@@ -48,6 +65,9 @@ body {
 .text-center {
     text-align: center;
 }
+
+
+/* border */
 
 .border {
     border: 1px solid gray;
@@ -60,8 +80,19 @@ body {
     padding: 30px 20px 30px 20px;
 }
 
+
+/* position */
+
+.relative {
+    position: relative;
+}
+
 .m20 {
     margin: 20px 0;
+}
+
+.ml20 {
+    margin-left: 20px;
 }
 
 .m40 {
@@ -75,6 +106,9 @@ body {
 .mb40 {
     margin-bottom: 40px;
 }
+
+
+/* style */
 
 a {
     text-decoration: none;
@@ -98,9 +132,32 @@ li {
     opacity: 0.7;
 }
 
-.relative {
-    position: relative;
+.blu {
+    color: blue;
 }
+
+.green {
+    background-color: green;
+}
+
+.indigo {
+    background-color: indigo;
+}
+
+.l-blu {
+    background-color: lightblue;
+}
+
+.red {
+    background-color: red;
+}
+
+.white {
+    background-color: whitesmoke;
+}
+
+
+/* text */
 
 .bolder {
     font-weight: 900;
@@ -114,10 +171,6 @@ li {
     font-family: 'Open Sans', sans-serif;
 }
 
-.blu {
-    color: blue;
-}
-
 .fontw400 {
     font-weight: 400;
 }
@@ -128,8 +181,12 @@ section h2 {
     font-size: 40px;
 }
 
+.f14 {
+    font-size: 14px;
+}
 
-/* header */
+
+/*********** header ***********/
 
 
 /* top-bar */
@@ -220,7 +277,7 @@ header li {
 }
 
 
-/* main */
+/******************** main ***************/
 
 
 /* section plans */
@@ -339,4 +396,62 @@ section.business .container .col-data {
 
 section.business .container .col-text p {
     font-size: 14px;
+}
+
+
+/* section clients */
+
+section.clients .title {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+section.clients .container.clearfix {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+section.clients .col.logo1 {
+    width: 50%;
+    height: 150px;
+}
+
+section.clients .col.logo2 {
+    ;
+    width: 50%;
+    height: 150px;
+}
+
+section.clients .col.logo3 {
+    width: 50%;
+    height: 150px;
+}
+
+section.clients .col.logo4 {
+    width: 50%;
+    height: 150px;
+}
+
+section.clients .col svg {
+    width: 100%;
+    height: 150px;
+    fill: white;
+    padding: 20px;
+}
+
+section.clients .col img {
+    width: 100%;
+    height: 150px;
+    padding: 20px;
+}
+
+section.clients .col.wd-40 {
+    width: 40%;
+    padding-left: 20px;
+}
+
+section.clients .col.wd-40 img {
+    width: 40%;
+    height: 60%;
 }
