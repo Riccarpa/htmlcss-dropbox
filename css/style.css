@@ -217,7 +217,7 @@ header li {
 
 section.plans {
     width: 80%;
-    margin: 0 auto;
+    margin: 100px auto;
 }
 
 section .plans-container .col {
@@ -288,4 +288,27 @@ hr {
 }
 
 
-/* section2 */
+/* section partners */
+
+section.partner {
+    width: 80%;
+    margin: 100px auto;
+}
+
+section.partner .col.img {
+    width: 500px;
+}
+
+section.partner .col.img img {
+    width: 100%;
+}
+
+section.partner .col.text {
+    width: 400px;
+    padding: 50px 0 0 50px;
+}
+
+section.partner .col.text a {
+    padding: 5px 10px;
+    border: 1px solid gray;
+}
