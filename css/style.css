@@ -440,7 +440,6 @@ section.clients .col img {
 }
 
 section.clients .col.wd-40 {
-    width: 40%;
     padding-left: 20px;
     height: 300px;
 }
@@ -472,4 +471,12 @@ section.clients .container-small .btn {
 section.clients .container-small .content h3 {
     width: 60%;
     color: indigo;
+}
+
+
+/* section question  */
+
+section.questions {
+    width: 80%;
+    margin: 40px auto;
 }
