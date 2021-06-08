@@ -145,7 +145,8 @@ li {
 }
 
 .l-blu {
-    background-color: lightblue;
+    background-color: #3B85FF;
+    ;
 }
 
 .red {
@@ -154,6 +155,10 @@ li {
 
 .white {
     background-color: whitesmoke;
+}
+
+.filter-white {
+    filter: invert(100%);
 }
 
 
@@ -183,6 +188,10 @@ section h2 {
 
 .f14 {
     font-size: 14px;
+}
+
+.f30 {
+    font-size: 30px;
 }
 
 
@@ -449,9 +458,34 @@ section.clients .col img {
 section.clients .col.wd-40 {
     width: 40%;
     padding-left: 20px;
+    height: 300px;
 }
 
 section.clients .col.wd-40 img {
     width: 40%;
     height: 60%;
+}
+
+section.clients .container-small {
+    height: 200px;
+    background-color: #B4D0E7;
+}
+
+section.clients .container-small .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-60%, -50%);
+}
+
+section.clients .container-small .btn {
+    position: absolute;
+    top: 0;
+    right: -20%;
+    background-color: white;
+}
+
+section.clients .container-small .content h3 {
+    width: 60%;
+    color: indigo;
 }
