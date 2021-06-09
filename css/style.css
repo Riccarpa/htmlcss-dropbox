@@ -210,7 +210,6 @@ nav {
     background-color: white;
     margin: 0 auto;
     z-index: 2;
-    border-bottom: 1px solid #3B85FF;
 }
 
 .top-bar {
@@ -240,12 +239,44 @@ header li {
     vertical-align: middle;
 }
 
-.top-bar .display-ib :hover {
-    opacity: 0.7;
+.top-bar ul :hover {
+    /* opacity: 0.7; */
+    border-bottom: 2px solid black;
+}
+
+.top-bar ul :hover a {
+    border-color: transparent;
 }
 
 .top-bar a.btn-blu {
     padding: 5px 10px;
+}
+
+li .function {
+    background-color: white;
+    visibility: hidden;
+    position: absolute;
+    top: 100%;
+    width: 60%;
+    border: 0.5px solid black;
+}
+
+.top-bar ul :active .function {
+    visibility: visible;
+}
+
+li .functionn {
+    background-color: white;
+    visibility: hidden;
+    position: absolute;
+    top: 100%;
+    width: 15%;
+    border: 0.5px solid black;
+    text-align: left;
+}
+
+.top-bar ul :active .functionn {
+    visibility: visible;
 }
 
 
