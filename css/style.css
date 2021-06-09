@@ -161,6 +161,10 @@ li {
     filter: invert(100%);
 }
 
+.gray {
+    color: gray;
+}
+
 
 /* text */
 
@@ -201,11 +205,12 @@ section h2 {
 /* top-bar */
 
 nav {
+    width: 1200px;
     position: fixed;
     background-color: white;
-    width: 90%;
     margin: 0 auto;
     z-index: 2;
+    border-bottom: 1px solid #3B85FF;
 }
 
 .top-bar {
@@ -487,5 +492,68 @@ section.clients .container-small .content h3 {
 
 section.questions {
     width: 80%;
-    margin: 40px auto;
+    margin: 80px auto;
+}
+
+section.questions hr {
+    width: 100%;
+}
+
+section.questions .question p {
+    line-height: 70px;
+    vertical-align: middle;
+    font-weight: bolder;
+    font-size: 14px;
+}
+
+section.questions .question i {
+    position: absolute;
+    right: 5%;
+    top: 40%;
+}
+
+
+/* *********Footer************* */
+
+footer {
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 100px;
+    position: relative;
+}
+
+footer .dropbox {
+    margin-right: 70px;
+}
+
+footer .community {
+    position: absolute;
+    top: 18%;
+}
+
+footer h4 {
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+
+footer li {
+    margin-top: 10px;
+}
+
+footer li:hover {
+    text-decoration: underline;
+}
+
+footer li a {
+    color: white;
+    font-size: 12px;
+}
+
+footer hr {
+    margin: 80px 0 40px 0;
+}
+
+footer i {
+    margin: 0 5px;
 }
