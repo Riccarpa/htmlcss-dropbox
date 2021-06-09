@@ -66,6 +66,10 @@ body {
     text-align: center;
 }
 
+.text-left {
+    text-align: left;
+}
+
 
 /* border */
 
@@ -257,24 +261,12 @@ li .function {
     visibility: hidden;
     position: absolute;
     top: 100%;
-    width: 60%;
+    width: 100px;
     border: 0.5px solid white;
     line-height: 20px;
 }
 
-li .functionn {
-    background-color: #3B85FF;
-    visibility: hidden;
-    position: absolute;
-    top: 100%;
-    width: 15%;
-    border: 0.5px solid white;
-    text-align: left;
-    line-height: 20px;
-}
-
-.top-bar ul :active .function,
-.top-bar ul :active .functionn {
+.top-bar ul :active .function {
     visibility: visible;
 }
 
@@ -571,7 +563,7 @@ section.questions .question .hide {
     display: none;
 }
 
-i.show:active span.hide {
+i.show :hover span.hide {
     display: block;
 }
 
