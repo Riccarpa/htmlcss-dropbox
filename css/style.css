@@ -556,6 +556,7 @@ section.questions .question i {
     position: absolute;
     right: 5%;
     top: 40%;
+    z-index: 2;
 }
 
 section.questions .question .hide {
@@ -563,8 +564,12 @@ section.questions .question .hide {
     display: none;
 }
 
-i.show :hover span.hide {
+.question:hover span.hide {
     display: block;
+}
+
+.question:hover .tent {
+    height: 100px;
 }
 
 
