@@ -253,30 +253,35 @@ header li {
 }
 
 li .function {
-    background-color: white;
+    background-color: #3B85FF;
     visibility: hidden;
     position: absolute;
     top: 100%;
     width: 60%;
-    border: 0.5px solid black;
-}
-
-.top-bar ul :active .function {
-    visibility: visible;
+    border: 0.5px solid white;
+    line-height: 20px;
 }
 
 li .functionn {
-    background-color: white;
+    background-color: #3B85FF;
     visibility: hidden;
     position: absolute;
     top: 100%;
     width: 15%;
-    border: 0.5px solid black;
+    border: 0.5px solid white;
     text-align: left;
+    line-height: 20px;
 }
 
+.top-bar ul :active .function,
 .top-bar ul :active .functionn {
     visibility: visible;
+}
+
+.function .info,
+.functionn .info {
+    height: 20px;
+    border-bottom: 1px solid white;
 }
 
 
@@ -566,7 +571,7 @@ section.questions .question .hide {
     display: none;
 }
 
-i.show :active span.hide {
+i.show:active span.hide {
     display: block;
 }
 
