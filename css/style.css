@@ -321,6 +321,24 @@ li .functionn {
     height: 100%;
 }
 
+.spotlight:hover i {
+    animation-name: spinn;
+    animation-duration: 4s;
+    animation-timing-function: cubic-bezier(.49, 0, 0, .99);
+}
+
+@keyframes spinn {
+    0% {
+        transform: translate(0);
+    }
+    50% {
+        transform: translate(0, 80%);
+    }
+    100% {
+        transform: translate(0);
+    }
+}
+
 
 /******************** main ***************/
 
@@ -541,6 +559,15 @@ section.questions .question i {
     position: absolute;
     right: 5%;
     top: 40%;
+}
+
+section.questions .question .hide {
+    width: 90%;
+    display: none;
+}
+
+i.show :active span.hide {
+    display: block;
 }
 
 
